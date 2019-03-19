@@ -129,7 +129,7 @@ func parsePlayers() (err error) {
 }
 
 func loadPlayersJSON() (err error) {
-	jsonFile, err := jsonGet.Get("https://nplist.now.sh/players.json")
+	jsonFile, err := jsonGet.Get("https://shivammeh.github.io/nplist/players.json")
 	if err != nil {
 		return
 	}
