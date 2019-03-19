@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 async function getPlayerData() {
-    let request = await fetch('/api/list.go');
+    let request = await fetch('/nplists2/api/list');
     if (request.status == 200) {
         let data = await request.json();
         return data;
